@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body {
+background: url('../images/back.jpg') no-repeat;
+background-color: black;
+padding: 0.1px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+margin: 0;
+
+
+}
+
+#copy {
+    position: fixed;
+}
+
+#logo  {
+width: 350px;
+height: 350px;
+margin-top: 200px; 
+position: absolute; 
+left: 16px; 
+right: 0; 
+bottom: 20%;
+margin-left: auto; 
+margin-right: auto;
+z-index: -1;
+opacity: 0.5;
+border-radius: 50%;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+animation: move 5s infinite;
+}
+
+
+
+#logo:hover {
+
+width: 420px;
+height: 420px;
+
+
+}
+
+#fb {
+position: fixed;
+height: 60px;
+float: left;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+z-index: 3;
+}
+
+#fb:hover {
+
+
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+
+#label {
+float: right;
+}
+
+#nav1 {
+
+width: 100%;
+margin: 0 auto;
+text-align: center;
+position: fixed;
+z-index: +2;
+background-color: black;
+opacity:0.8;
+}
+
+li{
+display: inline;
+text-decoration: none;
+font-size: 40px;
+margin:  40px; 
+border-bottom: 1px solid antiquewhite;
+border-left: solid 10px transparent; 
+border-right: solid 10px transparent; 
+filter: drop-shadow(10 0 30px #333);
+}
+
+a {
+text-decoration: none;
+color: #fdd34f;
+font-family: 'Dancing Script', cursive;
+-webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
+transition: color 2s; 
+margin-top: 100px;
+}
+
+a:hover {
+color: antiquewhite;
+}
+
+iframe {
+width: 33%;
+height: 300px;
+float: right;
+border-radius: 10%;
+margin-top: 50px;
+opacity: 0.8;
+border: 0.5px solid white;
+}
+
+#intro   {
+width: 28%;
+background-color: grey;
+height: auto;
+padding: 40px;
+opacity: 0.6;
+border-radius: 8%;
+border: 2px solid white;
+margin: 80px auto;
+clear: both;
+float: left;
+color:beige;
+font-size: 16px;
+font-family: 'Sorts Mill Goudy', cursive;
+text-align: justify;
+}
+
+#line {
+position: relative;
+height: 0.3px;
+border: 0.3px solid #fd53;
+background-color: gainsboro;
+}
+
+footer {
+position: absolute;
+top: 96%;
+    font-size: 12px;
+}
+
+audio {
+width: 30%;
+position: fixed;
+left: 40px;
+top: 120px;
+border-radius: 30px;
+
+}
+
+#about {
+width: 50%;
+height: auto;
+background-color: gainsboro;
+border: 3px solid white;
+padding: 40px;
+border-radius: 25px;
+margin: 150px auto;
+font-family:'Roboto slab', cursive;
+opacity: 0.6;
+font-size: 25px;
+text-align: justify;
+}
+
+
+@media (max-width: 1000px) {
+    
+    audio {
+display: none;
+}
+
+
+#label {
+display: none;
+}
+
+iframe {
+ 
+width: 30%;
+height: 300px;
+float: right;
+border-radius: 10%;
+margin-top: 100px;
+margin-right: 0px;
+opacity: 0.8;
+border: 0.5px solid white;
+    
+}
+
+#intro   {
+
+width: 28%;
+background-color: grey;
+margin-top: 90px;
+height: 430px;
+padding: 10px;
+opacity: 0.6;
+border-radius: 8%;
+border: 2px solid white;
+float: left;
+color:beige;
+font-size: 15px;
+font-family: 'Sorts Mill Goudy', cursive;
+text-align: center;
+}
+
+#logo  {
+width: 200px;
+height: 200px;
+margin-top: 200px; 
+position: absolute; 
+left: 16px; 
+right: 0; 
+bottom: 20%;
+margin-left: auto; 
+margin-right: auto;
+z-index: -1;
+opacity: 0.5;
+border-radius: 50%;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+animation: move 5s infinite;
+}
+
+
+
+#logo:hover {
+width: 300px;
+height: 300px;
+}
+
+audio {
+width: 10%;
+left: 0;
+top: 0;
+top: 80px;
+border-radius: 30px;  
+}
+
+    li{
+display: inline;
+text-decoration: none;
+font-size: 30px;
+margin:  10px; 
+border-bottom: 1px solid antiquewhite;
+border-left: solid 10px transparent; 
+border-right: solid 10px transparent; 
+filter: drop-shadow(10 0 30px #333);
+}
+    
+#fb {
+position: fixed;
+height: 40px;
+float: left;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+z-index: 3;
+}
+    #about {
+width: 80%;
+height: auto;
+background-color: gainsboro;
+border: 3px solid white;
+padding: 40px;
+border-radius: 25px;
+margin: 150px auto;
+font-family:'Roboto slab', cursive;
+opacity: 0.6;
+font-size: 25px;
+text-align: justify;
+}
+    
+
+@media (max-width: 850px) {
+    
+#label {
+    display: none;
+}
+
+iframe {
+ 
+width: 30%;
+height: 300px;
+float: right;
+border-radius: 10%;
+margin-top: 100px;
+margin-right: 0;
+opacity: 0.8;
+border: 0.5px solid white;
+    
+} 
+#intro   {
+
+width: 33%;
+background-color: grey;
+margin-top: 90px;
+height: 100%;
+padding: 10px;
+opacity: 0.6;
+border-radius: 8%;
+border: 2px solid white;
+float: left;
+color:beige;
+font-size: 15px;
+font-family: 'Sorts Mill Goudy', cursive;
+text-align: center;
+}
+
+#logo  {
+width: 200px;
+height: 200px;
+margin-top: 200px; 
+position: absolute; 
+left: 16px; 
+right: 0; 
+bottom: 20%;
+margin-left: auto; 
+margin-right: auto;
+z-index: -1;
+opacity: 0.5;
+border-radius: 50%;
+transition: 1s;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+animation: move 5s infinite;
+}
+
+
+
+#logo:hover {
+width: 300px;
+height: 300px; 
+} 
+
+
+li{
+display: inline;
+text-decoration: none;
+font-size: 25px;
+margin:  10px; 
+border-bottom: 1px solid antiquewhite;
+border-left: solid 10px transparent; 
+border-right: solid 10px transparent; 
+filter: drop-shadow(10 0 30px #333);
+}
+    
+
+@media (max-width: 550px) {
+li{
+font-size: 15px;
+margin:  5px; 
+}  
+    
+iframe {
+display: block;
+width: 100%;
+height: 300px;
+border-radius: 3%;
+opacity: 0.8;
+border: 0.5px solid white;
+margin: 0;
+}
+
+audio {
+display: none;
+}
+
+#copy {
+    display:none;
+}
+
+#intro {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 0;
+}
+
+#audio {
+    display: none;
+}
+    
+
+
+
+    
+    
