@@ -350,6 +350,8 @@ filter: drop-shadow(10 0 30px #333);
     
 
 @media (max-width: 400px) {
+
+    
   li{
 font-size: 15px;
 margin:  5px; 
@@ -377,9 +379,11 @@ border-radius: 30px;
 #audio {
     display: none;
 }
+
+}
     
-
-
+}
+}
 
     
     

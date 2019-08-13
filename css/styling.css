@@ -115,30 +115,35 @@ color: antiquewhite;
 }
 
 iframe {
-width: 33%;
-height: 300px;
+position: relative;
+padding: 40px;
+top: 10rem;
+right: 7rem;
+width: 30rem;
+height: 30rem;
 float: right;
 border-radius: 10%;
-margin-top: 50px;
 opacity: 0.8;
 border: 0.5px solid white;
 }
 
 #intro   {
-width: 28%;
+position: relative;
+width: 30rem;
 background-color: grey;
-height: auto;
+height: 30rem;
 padding: 40px;
 opacity: 0.6;
 border-radius: 8%;
 border: 2px solid white;
-margin: 80px auto;
 clear: both;
 float: left;
 color:beige;
-font-size: 16px;
+font-size: 1.4rem;
 font-family: 'Sorts Mill Goudy', cursive;
 text-align: justify;
+top: 10rem;
+left: 7rem;
 }
 
 #line {
@@ -151,14 +156,15 @@ background-color: gainsboro;
 footer {
 position: absolute;
 top: 96%;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 audio {
-width: 30%;
+width: 20%;
 position: fixed;
-left: 40px;
-top: 120px;
+top: 0.5rem;
+left: 5rem;
+z-index: 5;
 border-radius: 30px;
 
 }
@@ -178,24 +184,15 @@ text-align: justify;
 }
 
 
-@media (max-width: 1000px) {
-    
-    audio {
-display: none;
-}
+@media (max-width: 1400px) {
 
-
-#label {
-display: none;
-}
 
 iframe {
  
-width: 30%;
-height: 300px;
+width: 20rem;
+height: 500px;
 float: right;
 border-radius: 10%;
-margin-top: 100px;
 margin-right: 0px;
 opacity: 0.8;
 border: 0.5px solid white;
@@ -203,21 +200,23 @@ border: 0.5px solid white;
 }
 
 #intro   {
-
-width: 28%;
-background-color: grey;
-margin-top: 90px;
-height: 430px;
-padding: 10px;
-opacity: 0.6;
-border-radius: 8%;
-border: 2px solid white;
-float: left;
-color:beige;
-font-size: 15px;
-font-family: 'Sorts Mill Goudy', cursive;
-text-align: center;
-}
+    position: relative;
+    width: 20rem;
+    background-color: grey;
+    height: 500px;
+    padding: 40px;
+    opacity: 0.6;
+    border-radius: 8%;
+    border: 2px solid white;
+    clear: both;
+    float: left;
+    color:beige;
+    font-size: 1.2rem;
+    font-family: 'Sorts Mill Goudy', cursive;
+    text-align: justify;
+    top: 10rem;
+    left: 7rem;
+    }
 
 #logo  {
 width: 200px;
@@ -248,10 +247,11 @@ height: 300px;
 }
 
 audio {
-width: 10%;
-left: 0;
-top: 0;
-top: 80px;
+width: 30%;
+height: 40px;
+left: 50%;
+margin-left: -15%;
+top: 5.5rem;
 border-radius: 30px;  
 }
 
@@ -266,18 +266,8 @@ border-right: solid 10px transparent;
 filter: drop-shadow(10 0 30px #333);
 }
     
-#fb {
-position: fixed;
-height: 40px;
-float: left;
-transition: 1s;
--webkit-transition: 1s;
--moz-transition: 1s;
--ms-transition: 1s;
--o-transition: 1s;
-z-index: 3;
-}
-    #about {
+
+#about {
 width: 80%;
 height: auto;
 background-color: gainsboro;
@@ -290,125 +280,142 @@ opacity: 0.6;
 font-size: 25px;
 text-align: justify;
 }
-    
 
-@media (max-width: 850px) {
-    
-#label {
-    display: none;
-}
-
-iframe {
- 
-width: 30%;
-height: 300px;
-float: right;
-border-radius: 10%;
-margin-top: 100px;
-margin-right: 0;
-opacity: 0.8;
-border: 0.5px solid white;
-    
-} 
-#intro   {
-
-width: 33%;
-background-color: grey;
-margin-top: 90px;
-height: 100%;
-padding: 10px;
-opacity: 0.6;
-border-radius: 8%;
-border: 2px solid white;
-float: left;
-color:beige;
-font-size: 15px;
-font-family: 'Sorts Mill Goudy', cursive;
-text-align: center;
-}
-
-#logo  {
-width: 200px;
-height: 200px;
-margin-top: 200px; 
-position: absolute; 
-left: 16px; 
-right: 0; 
-bottom: 20%;
-margin-left: auto; 
-margin-right: auto;
-z-index: -1;
-opacity: 0.5;
-border-radius: 50%;
-transition: 1s;
--webkit-transition: 1s;
--moz-transition: 1s;
--ms-transition: 1s;
--o-transition: 1s;
-animation: move 5s infinite;
 }
 
 
-
-#logo:hover {
-width: 300px;
-height: 300px; 
-} 
-
-
-li{
-display: inline;
-text-decoration: none;
-font-size: 25px;
-margin:  10px; 
-border-bottom: 1px solid antiquewhite;
-border-left: solid 10px transparent; 
-border-right: solid 10px transparent; 
-filter: drop-shadow(10 0 30px #333);
-}
+@media (max-width: 1027px) {
     
-
-@media (max-width: 550px) {
-li{
-font-size: 15px;
-margin:  5px; 
-}  
+    #intro   {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        float: none; 
+        background-color: grey;
+        height: 25rem;
+        padding: 40px;
+        font-size: 1.5rem;
+        top: 2rem;
+        left: 0;
+        border-radius: 10px;
+      
+        }
     
 iframe {
-display: block;
-width: 100%;
-height: 300px;
-border-radius: 3%;
-opacity: 0.8;
-border: 0.5px solid white;
-margin: 0;
-}
-
-audio {
-display: none;
-}
-
-#copy {
-    display:none;
-}
-
-#intro {
+    position: relative;
     display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-    padding: 10px;
+    width: 80%;
+    height: 27rem;
+    top: 2.5rem;
+    float: none;
+    margin: 0 auto;
+    left: 0;
     border-radius: 10px;
-    margin-top: 60px;
-    padding: 0;
-}
-
-#audio {
-    display: none;
-}
+    }
+  
     
 
-
-
     
+    audio {
+        width: 30%;
+        height: 30px;
+        left: 50%;
+        margin-left: -15%;
+        top: 4.7rem;
+        border-radius: 30px;  
+        }
+    
+    
+    
+    #logo:hover {
+    width: 300px;
+    height: 300px;
+    }
+    
+ 
+        #about {
+    width: 80%;
+    height: auto;
+    background-color: gainsboro;
+    border: 3px solid white;
+    padding: 40px;
+    border-radius: 25px;
+    margin: 150px auto;
+    font-family:'Roboto slab', cursive;
+    opacity: 0.6;
+    font-size: 25px;
+    text-align: justify;
+    }
+    
+    }
+
+
+    @media (max-width: 700px) { 
+
+        li{
+            font-size: 17px;
+            margin:  3px; 
+            }  
+
+        audio {
+            position: absolute;
+            width: 80%;
+            height: 30px;
+            left: 50%;
+            top: 5rem;
+            margin-left: -40%;
+            z-index: 0;
+            border-radius: 30px;  
+            }
+
+        #label {
+            display: none;
+        }
+
+        #intro {
+            width: 60%;
+            border-radius: 10px;
+            top: 8rem;
+            font-size: 90%;
+        }
+
+        iframe {
+            width: 60%;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            top: 9rem;
+        }
+
+        #copy {
+          bottom: -13px;
+          font-size: 15px;
+         
+          
+            
+        }
+
+    }
+
+    @media (max-width: 250px) { 
+
+        #intro {
+            font-size: 75%;
+        }
+
+        @media (max-width: 350px) { 
+
+            #intro {
+                display: none;
+            }
+
+            iframe {
+                display: none;
+            }
+
+    }
+
+}
+
+
     
