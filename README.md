@@ -1,5 +1,7 @@
 # My Personal Homepage - www.georgefalk.com
 
-clean html and css. no frameworks
+My very first project to introduce me as a local musician. Clean html and css. No frameworks.
+
+See it on:
 
 www.georgefalk.com
