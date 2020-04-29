@@ -1,7 +1,4 @@
-# My Personal Music Homepage - www.georgefalk.com
+# My Personal Music Homepage
 
 My very first project to introduce me as a local musician. Clean html and css. No frameworks.
 
-See it on:
-
-www.georgefalk.com
